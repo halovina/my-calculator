@@ -139,9 +139,9 @@ Installation options:
 
 ## Implementation Guide (`examplepackagetest`)
 
-The [`examplepackagetest`](../examplepackagetest) directory acts as a client project that consumes the `my_calculator` package.
+The [`examplepackagetest`] directory acts as a client project that consumes the `my_calculator` package.
 
-### 1. Declaring Dependencies ([`requirements.txt`](../examplepackagetest/requirements.txt))
+### 1. Declaring Dependencies ([`requirements.txt`])
 
 Contents of `requirements.txt`:
 
@@ -160,7 +160,7 @@ pip install -r requirements.txt
 
 > `pip` automatically clones the repository, reads `pyproject.toml`, builds the package, and installs it into your Python environment.
 
-### 3. Executing Code ([`main.py`](../examplepackagetest/main.py))
+### 3. Executing Code ([`main.py`])
 
 `main.py` demonstrates calling the addition and division functions, including handling the zero-division error:
 
